@@ -3,7 +3,7 @@ A mini tool for extracting specific lines from ida dumped assembly files based o
 
 ### usage
 ```
-python assembly_extractor.py -af [assembly_filepath] -cf [cfg_filepath] -o [output_path] start_addr end_addr
+python assembly_extractor.py -af [assembly_file] -cf [cfg_file] -o [output_file] start_addr end_addr
 ```
 ##### warning
 1. `start_addr` and `end_addr` is the start address and end address of the assembly fragment you provide and must be in **hex format**
