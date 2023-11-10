@@ -6,8 +6,8 @@ A mini tool for extracting specific lines from ida dumped assembly files based o
 python assembly_extractor.py -af [assembly_file] -cf [cfg_file] -o [output_file] start_addr end_addr
 ```
 ##### warning
-1. `start_addr` and `end_addr` is the start address and end address of the assembly fragment you provide and must be in **hex format**
-2. your assembly fragment should be consistent
+1. `start_addr` and `end_addr` are the start address and end address of the your assembly fragment and must be in **hex format**
+2. the assembly fragment should be consistent
 
 ### assembly file
 an assembly file should be fully copied from ida and be like this:
